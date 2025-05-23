@@ -1,0 +1,87 @@
+/* // `xs` returns only a ruleset and no media query */
+
+@media (min-width: 320px) and (max-width: 575px) {
+  .right-menu{
+    display: none;
+  }
+  .banner_content h1 {
+    color: #3e4452;
+    font-size: 20px;
+    line-height: 66px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.banner_content p {
+    color: #3e4452;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: "Lato", serif;
+    margin-bottom: 50px;
+}
+.banner_content .nabs-tabs {
+    margin: 0px 0%;
+    position: relative;
+}
+.banner_content ul li button {
+    background: #fff;
+    color: #000;
+    margin-right: 20px;
+    font-size: 10px;
+    font-weight: 400;
+    font-family: "Lato", serif;
+    text-transform: capitalize;
+    position: relative;
+}
+.tab-pane {
+    background: #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    border: 5px solid #66666675;
+}
+.tab-pane input, select {
+    padding-left: 0px;
+    border: 1px solid #EBEBEB;
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 5px;
+    width: 20%;
+}
+.ms-100 {
+    margin-left: 0px;
+}
+.choose-section {
+    background: url(../images/bg-service-home-5.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 90px 0px;
+    margin-bottom: 130px;
+}
+}
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+ }
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+ }
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+
+}
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+
+ }
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+
+}
